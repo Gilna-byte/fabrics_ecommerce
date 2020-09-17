@@ -5,7 +5,7 @@ if(!isset($_SESSION['username']))
 		 echo "<script>window.location.assign('userlogin.php');</script>";
 }
 
-$conn=mysqli_connect('localhost','id13450155_root','Root-12345678910','id13450155_hashmi');
+$conn=mysqli_connect('localhost','root','','hashmi');
 
 
  $query="SELECT * FROM `users`";

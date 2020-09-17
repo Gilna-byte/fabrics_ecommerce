@@ -8,7 +8,8 @@ if(isset($_SESSION['username']))
 $email= $_POST['email'];
 $pass= $_POST['pass'];
 
-$conn=mysqli_connect('localhost','id13450155_root','Root-12345678910','id13450155_hashmi');
+$conn=mysqli_connect('localhost','root','','hashmi');
+
  
 
 $chklogin=0;

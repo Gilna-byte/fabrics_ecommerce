@@ -5,7 +5,7 @@ $name= $_POST['name'];
 $email= $_POST['email'];
 $pass= $_POST['pass'];
 
-$conn=mysqli_connect('localhost','id13450155_root','Root-12345678910','id13450155_hashmi');
+$conn=mysqli_connect('localhost','root','','hashmi');
  
 
 $date =('j/m/Y');

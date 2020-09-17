@@ -1,5 +1,5 @@
 <?php
-$conn=mysqli_connect('localhost','id13450155_root','Root-12345678910','id13450155_hashmi');
+$conn=mysqli_connect('localhost','root','','hashmi');
 
 session_start();
 
@@ -327,8 +327,8 @@ else
 <div class="col-md-3">
 <div >
 	<h6 ><a href="#" style="color:#fff;">Contacts</a></h6>
-	<small style="color:#b0ababcc">T: +92-336-6288588<br>
-		Emal: arsalhashmi82@gmail.com<br>
+	<small style="color:#b0ababcc">T: +92-333-3333333<br>
+		Emal: mymail@mail.com<br>
 		</small>
 	</div>
 </div>

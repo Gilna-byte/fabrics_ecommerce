@@ -1,6 +1,6 @@
  <?php
 
-$conn=mysqli_connect('localhost','id13450155_root','Root-12345678910','id13450155_hashmi');
+$conn=mysqli_connect('localhost','root','','hashmi');
 
 $email  ='osama';
  
