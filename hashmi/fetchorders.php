@@ -11,7 +11,7 @@
 	
 
 <?php
-$conn=mysqli_connect('localhost','root','','hashmi');
+$connect=mysqli_connect('localhost','root','','hashmi');
 $output = '';
 if(isset($_POST["query"]))
 {
