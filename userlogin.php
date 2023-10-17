@@ -9,7 +9,7 @@ if(isset($_SESSION['username']))
 ?>
 <html>
 <head>
-<title>HashmiFabrics |Login</title>
+<title>Fabrics |Login</title>
    <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -128,7 +128,7 @@ if(isset($_SESSION['username']))
       <div class="card card-signup z-depth-0">
         <div class="card-body text-center" style="font-size:x-large">
         
-        <h2 style="border-bottom:1px solid black;">  HashmiFabrics</h2>
+        <h2 style="border-bottom:1px solid black text-center text-align: center;">  Fabrics</h2>
           <h3 class="card-title">SignIn</h3>
           
         

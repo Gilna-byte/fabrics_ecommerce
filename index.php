@@ -28,7 +28,7 @@ body {
 	position:relative;
 }
 
-.sidenav {
+.seidnav {
 	
   height: 100%;
   width: 0;
@@ -124,7 +124,7 @@ body {
  <nav class="navbar navbar-expand-md navbar-dark" style="width:100%;background:#201b1b;">
         <a href="#" class="navbar-brand">
            <h3 style="font-family:Trajan"><b><span style="font-size:30px;cursor:pointer;margin-right:2%;margin-left:2%" onclick="openNav()">&#9776;</span>
-		   <span onclick="window.location.assign('index.php')">HashmiFabrics</span>
+		   <span onclick="window.location.assign('index.php')">Fabrics</span>
 </b></h3>
         </a>
       
@@ -153,7 +153,7 @@ body {
 {
   ?>
     <a href="userlogin.php" style="font-size:large;" ><h5><i class="fa fa-sign-in" aria-hidden="true"></i> Sign In </h5></a>
-    <a href="usersignup.php" style="font-size:large;" ><h5><i class="fa fa-user" aria-hidden="true"></i> Suign Up </h5></a>
+    <a href="usersignup.php" style="font-size:large;" ><h5><i class="fa fa-user" aria-hidden="true"></i> Sign Up </h5></a>
   <a style="font-size:large;" href="about.php"><i class="fa fa-address-card"></i> About</a>
 	<?php 
 }
@@ -278,7 +278,7 @@ else
 <div class="col-md-3">
 
 	<div class="" >
-		<h6 style="color:#fff;">HASHMI FABRICS</h6>
+		<h6 style="color:#fff;">FABRICS</h6>
 		
 
    <?php
@@ -316,9 +316,9 @@ else
 <div class="">
 	<div >
 	<h6 style="color:#fff;">Address</h6>
-		<small style="color:#b0ababcc">Pakistan cloth house<br>
-		near Boar chowk,Dinga<br>
-		Gujrat, Pakistan</small>
+		<small style="color:#b0ababcc">Indian cloth house<br>
+		near Godrej Hill<br>
+		Maharashtra(Kalyan), India</small>
 	</div>
 	
 	
@@ -327,8 +327,8 @@ else
 <div class="col-md-3">
 <div >
 	<h6 ><a href="#" style="color:#fff;">Contacts</a></h6>
-	<small style="color:#b0ababcc">T: +92-333-3333333<br>
-		Emal: mymail@mail.com<br>
+	<small style="color:#b0ababcc">T: +91450456800 <br>
+		Emal: business.enquiry@gmail.com<br>
 		</small>
 	</div>
 </div>
@@ -354,3 +354,5 @@ function closeNav() {
    
 </body>
 </html> 
+
+

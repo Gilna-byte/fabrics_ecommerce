@@ -173,7 +173,7 @@ body {
  <nav class="navbar navbar-expand-md navbar-dark" style="width:100%;background:#201b1b;">
         <a href="#" class="navbar-brand">
            <h3 style="font-family:Trajan"><b><span style="font-size:30px;cursor:pointer;margin-right:2%;margin-left:2%" onclick="openNav()">&#9776;</span>
-		   <span onclick="window.location.assign('index.php')">HashmiFabrics</span>
+		   <span onclick="window.location.assign('index.php')">Fabrics</span>
 </b></h3>
         </a>
       
@@ -395,7 +395,7 @@ $query1="SELECT * FROM `users`";
 <div class="col-md-3">
 
 	<div class="" >
-		<h6 style="color:#fff;">HASHMI FABRICS</h6>
+		<h6 style="color:#fff;">FABRICS</h6>
 		
 
    <?php

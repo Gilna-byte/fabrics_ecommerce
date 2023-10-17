@@ -163,7 +163,7 @@ body {
   <nav class="navbar navbar-expand-md navbar-dark" style="width:100%;background:#201b1b;">
         <a href="#" class="navbar-brand">
            <h3 style="font-family:Trajan"><b><span style="font-size:30px;cursor:pointer;margin-right:2%;margin-left:2%" onclick="openNav()">&#9776;</span>
-		   <span onclick="window.location.assign('index.php')">HashmiFabrics</span>
+		   <span onclick="window.location.assign('index.php')">Fabrics</span>
 </b></h3>
         </a>
       
@@ -271,11 +271,11 @@ else
 																								<div class="card">
 																									
 																							<div class="card-body">
-																										 <img class="d-block w-100" height="200px;" src="hashmi/'.$image.'" alt="'.$categ.'">
+																										 <img class="d-block w-100 " height="200px;" src="hashmi/'.$image.'" alt="'.$categ.'">
 																							  <div class="well">
 																							  <h5>'.$name.'</h5>
 																								<p style="width:100%;"> <span style="float:right">Stock '.$stock.'</span></p>
-																								<br><p style="width:100%;color:red;font-family:verdana;font-size:x-large"> <span style="float:right">Price '.$price.' <small >pkr</small></span></p>
+																								<br><p style="width:100%;color:red;font-family:verdana;font-size:x-large"> <span style="float:right">Price '.$price.' <small >Rs</small></span></p>
 																									</div>	
 																							<form action="detailitems.php" method="POST" style="display:block;">
 																							<input type="text" value="'.$id.'" style="display:none;" name="id">
@@ -310,7 +310,7 @@ else
 <div class="col-md-3">
 
 	<div class="" >
-		<h6 style="color:#fff;">HASHMI FABRICS</h6>
+		<h6 style="color:#fff;"> FABRICS</h6>
 		
 
    <?php
@@ -368,7 +368,7 @@ else
 </div>
 <div class="col-md-12 row justify-content-center" style="margin-top:30px;margin-bottom:30px">
 	<div class="col-md-12 ">
-		<h2 style="text-align:center;">HASHMI FABRICS</h2>
+		<h2 style="text-align:center;">FABRICS</h2>
 	</div>
 </div>
 </div>
